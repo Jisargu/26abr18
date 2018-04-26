@@ -1,13 +1,33 @@
-.texto_carrusel{
+.fondo_posicion_carousel_caption{
     color: #fff;
     background-image: url(../img/header_bg.png);
-    opacity: 0.651;
-    position: absolute;
-    width: 450px;
-    height: 400px;
+    opacity: 0.8;
+    background-size: 100% 100%;
+    top: 0;
+    bottom: 0;
+    left: 10%;
+    right: 50%;
+    padding: 30px;
+}
+.texto_carrusel_h3{
+    margin-top: 44px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.texto_carrusel_p{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: left;
+}
+.marpad{
     margin: 0;
-    top: 50%;
-    left: 30%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+    padding: 0;
+}
+.letra_peque{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: underline;
 }
