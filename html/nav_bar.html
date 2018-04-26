@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Nav bar</title>
+    <link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/mi_estilo.css" /> 
+    <script src="../bootstrap/jquery-3.3.1.slim.min.js"></script>
+    <script src="../bootstrap/popper.min.js"></script>
+    <script src="../bootstrap/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
+        <!-- Navbar content -->
+        <a class="navbar-brand" href="#">
+            <img class="tamano_logo mr" src="../img/wacdonalds.jpg" alt="logo wacdonalds"/>
+            Wacdonalds
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Promos</a></li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sucursales
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Zapopan</a>
+                    <a class="dropdown-item" href="#">Guadalajara</a>
+                    <a class="dropdown-item" href="#">Tlaquepaque</a>
+                </div>
+            </ul>
+        </div>
+
+        <form class="form-inline justify-content-end">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+      </nav>
+</body>
+</html>
